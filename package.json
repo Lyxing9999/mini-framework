@@ -1,0 +1,17 @@
+{
+    "name": "my-mini-framework",
+    "version": "0.1.0",
+    "main": "dist/index.js",         
+    "module": "dist/index.esm.js",   
+    "types": "dist/index.d.ts",      
+    "files": [
+      "dist"
+    ],
+    "scripts": {
+      "build": "vite build"          
+    },
+    "peerDependencies": {
+    "vue": "^3.5.14",
+      "element-plus": "^2.9.10"  
+    }
+  }
