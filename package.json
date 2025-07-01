@@ -1,23 +1,23 @@
 {
-    "name": "my-mini-framework",
-    "version": "0.1.0",
-    "main": "dist/index.js",
-    "module": "dist/index.esm.js",
-    "types": "dist/index.d.ts",
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "build": "vite build"
-    },
-    "peerDependencies": {
-        "element-plus": "^2.9.10",
-        "vue": "^3.5.14"
-    },
-    "devDependencies": {
-        "@vitejs/plugin-vue": "^6.0.0",
-        "typescript": "^5.8.3",
-        "vite": "^7.0.0",
-        "vue-tsc": "^2.2.10"
-    }
+  "name": "my-mini-framework",
+  "version": "0.1.0",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "element-plus": "^2.9.10",
+    "vue": "^3.5.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0",
+    "vue-tsc": "^2.2.10"
+  }
 }
